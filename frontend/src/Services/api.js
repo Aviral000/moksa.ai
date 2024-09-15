@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3000/api/customers';
+const API_BASE_URL = 'https://moksa-ai.onrender.com/api/customers';
 
 export const fetchLiveData = async () => {
   try {
