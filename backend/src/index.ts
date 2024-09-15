@@ -18,9 +18,7 @@ setInterval(() => {
     time_stamp: new Date(),
   };
 
-  saveCustomerData(randomData)
-    .then(() => console.log('Simulated customer data saved:', randomData))
-    .catch((err) => console.error('Error saving simulated data:', err));
+  saveCustomerData(randomData);
 }, 5000);
 
 const PORT = 3000;
