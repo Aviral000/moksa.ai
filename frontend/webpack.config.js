@@ -1,6 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
-const Dotenv = require('dotenv-webpack');
 
 module.exports = {
     entry: "./src/index.jsx",
@@ -45,9 +44,6 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './public/index.pug'
-        }),
-        new Dotenv({
-            ignoreStub: true
         })
     ],
     devServer: {
