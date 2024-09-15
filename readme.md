@@ -10,3 +10,8 @@ for backend use 'npm run dev' to start
 for frontend use 'npm start' to start
 
 on github, i will also provide a live link if possible
+
+LIVE SERVER problem
+live server can't keep up with the speed database changes, because of free service have its own criteria
+
+Use clown and run localhost
